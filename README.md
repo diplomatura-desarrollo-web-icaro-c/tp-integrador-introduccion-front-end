@@ -81,3 +81,5 @@ Se deberán crear dos vistas HTML con sus correspondientes hojas de estilo CSS. 
   
 
 **IMPORTANTE** Tener cuidado de no modificar o editar la rama _master_, y de hacerlo, descartar los cambios en la misma para que a la hora de empujar los cambios no se envíen hacia aquí, para que la rama _master_ quede limpia y solamente contenga el _readme.md_. **NO EMPUJAR DESDE NI HACIA LA RAMA MASTER**
+
+Juan Ezequiel Gómez
