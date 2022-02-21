@@ -1,7 +1,9 @@
 body {
     margin: 0;
 }
-/*----------HEADER----------*/
+
+
+/*----------HEADER----------
 header {
     display: flex;
     flex-direction: column;
@@ -33,7 +35,7 @@ a {
 a:last-of-type {
     margin-bottom: 0;
 }
-/*-RESPONSIVE HEADER TABLET-*/
+/*-RESPONSIVE HEADER TABLET-
 @media (min-width: 768px) {
     header {
         flex-direction: row;
@@ -47,7 +49,7 @@ a:last-of-type {
         font-size: 24px;
     }
 }
-/*-RESPONSIVE HEADER DESKTOP-*/
+/*-RESPONSIVE HEADER DESKTOP-
 @media (min-width: 1200px) {
     header {
         flex-direction: row;
@@ -75,3 +77,4 @@ a:last-of-type {
         margin: 0;        
     }
 }
+*/
