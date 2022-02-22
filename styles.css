@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+}
+
+/* header --->titulo logo*/
+h1{
+    color: brown;
+}
+
+/* header --->menu*/
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li{
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+ul a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ul a:visited{
+    color: white;
+}
+
+/* header ---> decoracion*/
+
+ul li:hover{
+    box-shadow: 0px 4px 6px -5px brown; 
+
+}
+ul li a:hover{
+    color: brown;
+}
+
+
+/* header ---> Adaptativo*/
+
+@media(min-width:900px){
+    header{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    ul#nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    ul#nav li{
+        margin-bottom: 0px;
+    }
+
+    a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* main */
+
+main{
+    padding-top: 50px;  
+    max-width: 1200px;
+    margin: 0 auto;
+}  
+
+
+span.autor{
+    font-style: italic;
+}
+
+/* main ---> seccion 1*/
+
+section#secciones1{
+    display: flex;
+    flex-direction: column;
+    margin:0 20px;
+    padding-bottom: 20px;
+}
+
+img{
+    max-width:auto;
+    object-fit: cover;    
+}
+
+
+/* main --->seccion 1 Adaptativo*/
+@media(min-width:900px){
+    section#secciones1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 20px;
+        border-bottom: none;
+    }
+    
+    img{
+        width: 47.5%;
+        margin:0px;
+    }
+
+    #secciones1 p{
+        width: 47.5%;
+    }
+
+}
+
+/* main ---> seccion 2*/
+
+section#secciones2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+
+/* main --->seccion 2 Adaptativo*/
+@media(min-width:900px){
+    section#secciones2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    article.informacion{
+        width: 47.5%;
+    }
+}
+
+
+
+/* main --->seccion 3 */
+section#secciones3{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+/* main --->seccion 3 Adaptativo*/
+@media(min-width:900px){
+    section#secciones3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    article.comentario{
+        width: 30%;
+    }
+}
+
+
+
+
+/* footer */
+
+footer{
+    padding: 50px 20px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
