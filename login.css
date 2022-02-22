@@ -1,0 +1,39 @@
+main {
+  height: 500px;
+}
+
+.section-2 {
+  height: 87%;
+}
+
+fieldset {
+  border-radius: 5px;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0.5em 0;
+}
+
+#borde {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  width: 100%;
+}
+
+label {
+  margin: 0.5em 0;
+}
+
+#boton {
+  margin: 15px;
+  padding: 0.7em 2em;
+  background-color: rgb(197, 75, 54);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

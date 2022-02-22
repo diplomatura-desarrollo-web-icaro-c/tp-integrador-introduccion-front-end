@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header"
+    "main"
+    "boton"
+    "sidebar"
+    "footer";
+}
+
+header {
+  height: auto;
+  background-color: #faa43d;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  grid-area: header;
+}
+
+header .header--nav {
+}
+
+header .header--nav ul {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header .header--nav a:after {
+  content: " |";
+  color: antiquewhite;
+}
+
+/*            main              */
+main {
+  grid-area: main;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 15px;
+}
+
+.section-2 {
+  padding: 30px;
+  margin-top: 60px;
+  text-align: center;
+  background-color: #f8eff5;
+  border-radius: 15px;
+}
+
+.section-2 h2 {
+  margin: 10px;
+  font-size: 3.5rem;
+}
+
+.section-2 h3 {
+  margin: 25px;
+}
+
+.section-3 {
+  height: 600px;
+  margin-top: 50px;
+}
+.comentarios--container {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-3 article {
+  border: solid 0.5px black;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.section-3 article h4 {
+  text-align: end;
+}
+/* boton */
+.image-container {
+  grid-area: boton;
+  font-size: 3rem;
+}
+
+.image-container .img-1 {
+  background-image: url("image/ip-taco-meat-7.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  border-radius: 10px;
+  border: solid 1px black;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.image-container .img-2 {
+  background-image: url("image/pizza.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  border-radius: 10px;
+  text-align: end;
+  border: solid 1px black;
+}
+/* aside    */
+aside {
+  background-color: rgb(220, 239, 255);
+  min-height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: sidebar;
+}
+
+/* footer   */
+
+footer {
+  background-color: #faa43d;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+  grid-area: footer;
+}
+
+@media (min-width: 900px) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "main sidebar"
+      "main sidebar"
+      "boton sidebar"
+      "footer footer";
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-1 img {
+    width: 90%;
+  }
+
+  .section-1--text {
+    display: inline-block;
+  }
+
+  .comentarios--container {
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .section-3 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .image-container {
+    display: flex;
+    position: relative;
+    top: -40px;
+  }
+
+  .image-container .img-1 {
+    width: 50%;
+  }
+  .image-container .img-2 {
+    width: 50%;
+  }
+}
