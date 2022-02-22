@@ -2,6 +2,8 @@ body {
   background-image: url(./img/animal1.jpg);
   display: flex;
   flex-direction: column;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 800;
   align-items: center;
   width: 100%;
 }
@@ -78,6 +80,10 @@ main {
   .navBar {
     display: flex;
     flex-direction: row;
+  }
+  .navBar a {
+    width: 100px;
+    color: bisque;
   }
 
   #articulo1 {
