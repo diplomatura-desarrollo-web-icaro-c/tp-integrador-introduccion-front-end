@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+
+}
+header {
+    background-color: rgba(201, 202, 197, 0.822);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    
+}
+main{
+    background-color: aliceblue;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#logo{
+
+}
+#titulo1{
+    background-color: lightgrey;
+    width: 50px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 10px;
+    
+    
+}
+#t2{background-color: lightgrey;
+    width: 50px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 10px;
+    
+    
+
+}
+#comentarios{
+    background-color: lightgrey;
+    width: 50px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 10px;
+}
+    
+#footer{
+    text-align: center; 
+}
+
+
