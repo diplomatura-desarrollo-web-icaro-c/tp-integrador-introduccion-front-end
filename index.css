@@ -26,9 +26,45 @@ header {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.articulos {
+  display: flex;
+  align-items: center;
 }
 
-#articulo1 img {
-  width: 400px;
+#articulo1,
+#articulo2,
+#articulo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
+#articulo1 img {
+  width: 50%;
+  padding-top: 10px;
+}
+#articulo1 p {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.subArt3,
+#subArt1,
+#subArt2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  /* padding: 10px; */
+}
+
 /* main---------------------------------- */
+
+/* footer-------------------------------- */
+
+/* footer-------------------------------- */
