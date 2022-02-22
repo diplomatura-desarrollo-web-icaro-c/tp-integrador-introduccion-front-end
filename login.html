@@ -7,5 +7,36 @@
     <link rel="stylesheet" href="login.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>My Landing Page.</h1>
+      <div class="navBar">
+        <a href="#">Home</a>
+        <a href="#">Productos</a>
+        <a href="#">Login</a>
+        <a href="#">Contacto</a>
+      </div>
+    </header>
+
+    <main>
+      <form action="post">
+        <div id="nU">
+          <label for="nUsuario">Nombre de Usuario</label>
+          <input type="text" name="nombreUsuario" id="nUsuario" />
+        </div>
+        <div id="pas">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" name="contraseña" id="contraseña" />
+        </div>
+        <div id="rPas">
+          <label for="recordarUsuario">Recordar Usuario</label>
+          <input type="text" name="rUsuario" id="recordarUsuario" />
+        </div>
+        <div id="Ing">
+          <input type="submit" name="ingresar" id="ingresar" value="Ingresar" />
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
 </html>
