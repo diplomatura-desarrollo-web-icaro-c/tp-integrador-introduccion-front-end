@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-image: url(./img/animal1.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,9 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+header h1 {
+  text-align: center;
+}
 .navBar {
   display: flex;
   flex-direction: column;
