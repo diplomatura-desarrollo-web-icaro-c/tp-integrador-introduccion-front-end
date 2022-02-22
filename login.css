@@ -65,10 +65,20 @@ input {
 
 /* footer------------------------------------ */
 footer h4 {
-  color: fuchsia;
+  background-color: darkcyan;
+  border-radius: 5px;
+  color: antiquewhite;
   font-style: italic;
 
   font-weight: 900;
 }
 
 /* footer------------------------------------ */
+
+@media (min-width: 900px) {
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
