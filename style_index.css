@@ -5,7 +5,7 @@ body{
 /*      INICIO HEADER      */
 header{
     padding: 20px 0;
-    background-color: aquamarine;
+    background-color: moccasin;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,21 @@ nav{
 
 /*      INICIO MAIN      */
 
-
+.art-1{
+    border: 1px solid #CCCCCC;
+    margin: 5px 0 5px 53px;
+    
+}
+.art-2{
+    border: 1px solid #CCCCCC;
+    margin: 5px 0 5px 53px;
+    
+}
+.art-3{
+    border: 1px solid #CCCCCC;
+    margin: 5px 0 5px 53px;
+    
+}
 /*      FIN MAIN      */
 
 
@@ -36,5 +50,5 @@ nav{
 
 .footer-control{
     text-align: center;
-    background-color: aqua;
+    background-color: moccasin;
 }
