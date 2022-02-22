@@ -1,0 +1,55 @@
+head{
+    background-color: #cfc;
+}
+body{
+    text-decoration: #000;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#imagen {
+    max-width: 500px;
+}
+img {
+    max-width: 500px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+#Texto h1{
+    text-align: center;
+}
+#Texto {
+    border-top: 3px solid black;
+    padding: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+   
+}
+#Comentarios h1{
+   text-align: center;
+}
+#Comentarios {
+    border-top: 5px solid black;
+    padding: 20px;
+    font-size:italic;
+    color:#000;
+}
+@media screen and (min-width: 480px){
+    body{
+        background-color: greenyellow;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body{
+        background-color: aqua;
+    }
+}
