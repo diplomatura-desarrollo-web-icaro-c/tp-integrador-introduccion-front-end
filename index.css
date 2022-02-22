@@ -1,4 +1,5 @@
 body {
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,3 +69,14 @@ main {
 /* footer-------------------------------- */
 
 /* footer-------------------------------- */
+
+/* media Query ----------------------------- */
+
+@media (min-width: 900px) {
+  .navBar {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* media Query ----------------------------- */
