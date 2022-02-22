@@ -1,0 +1,170 @@
+body {
+    margin: 20px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*----------HEADER----------*/
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+
+
+}
+#nombre,
+#contrasena {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 30%;
+    margin-bottom: 10px;
+    
+
+}
+#nombre input,
+#contrasena input {
+    width: 200px;
+}
+#recordar {
+    margin: 20px 0;
+}
+#submit {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    width: 150px;
+    align-self: center;
+    border-radius: 5px;
+    transition: ease-in-out .3s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+
+    
+}
+#nombre,
+#contrasena,
+#comunicacion,
+#mouse {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 40%;
+    margin-bottom: 10px;
+    
+}
+
+#nombre div,
+#contrasena div,
+#comunicacion div,
+#mouse div,
+#generos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#nombre label,
+#contrasena label,
+#comunicacion label,
+#mouse label {
+    margin-bottom: 5px;
+}
+
+#nombre input,
+#contrasena input,
+#comunicacion input,
+#mouse input {
+    width: 200px;
+}
+#mouse select {
+    width: 208px;
+    height: 23px;
+    text-align: center;
+}
+
+#registro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#registro p {
+    margin-bottom: 10px;
+}
+
+#generos {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+#terminos {
+    margin-bottom: 20px;
+}
+#submit {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    width: 150px;
+    align-self: center;
+    border-radius: 5px;
+    transition: ease-in-out .3s;
+
+}
+#submit:hover {
+    border: 2px solid gray;
+    background: transparent;
+    color: gray;
+}
+
+*/
+
