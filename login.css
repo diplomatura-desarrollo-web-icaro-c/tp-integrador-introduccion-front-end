@@ -2,6 +2,7 @@ body {
   background-image: url(./img/animales2.jpg);
   display: flex;
   flex-direction: column;
+  font-family: "Shadows Into Light", cursive;
   align-items: center;
 }
 /* header----------------------------------- */
@@ -47,7 +48,7 @@ form div {
 #rPas,
 label,
 input {
-  color: antiquewhite;
+  color: orangered;
   width: 300px;
   text-align: center;
   font-weight: 700;
@@ -65,7 +66,7 @@ input {
 
 /* footer------------------------------------ */
 footer h4 {
-  background-color: darkcyan;
+  background-color: orangered;
   border-radius: 5px;
   color: antiquewhite;
   font-style: italic;
