@@ -1,0 +1,74 @@
+body {
+  background-image: url(./img/animales2.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* header----------------------------------- */
+header {
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  color: aliceblue;
+
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navBar a {
+  padding: 10px;
+  color: antiquewhite;
+  font-size: larger;
+}
+/* header----------------------------------- */
+
+/* main-------------------------------------- */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+#nU,
+#pas,
+#rPas,
+label,
+input {
+  color: antiquewhite;
+  width: 300px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#Ing input {
+  border-radius: 5px;
+  background-color: gray;
+  color: antiquewhite;
+  width: 200px;
+  font-weight: 700;
+}
+/* main-------------------------------------- */
+
+/* footer------------------------------------ */
+footer h4 {
+  color: fuchsia;
+  font-style: italic;
+
+  font-weight: 900;
+}
+
+/* footer------------------------------------ */
