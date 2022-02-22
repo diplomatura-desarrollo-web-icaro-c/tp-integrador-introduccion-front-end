@@ -1,12 +1,16 @@
 body {
-    margin: 20px;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+    background: radial-gradient(white,rgb(182, 214, 243));
+    padding: 20px;
 }
-/*----------HEADER----------*/
+
+
 header {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
     align-items: center;
   
 }
@@ -15,92 +19,116 @@ header {
 #comentarios {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     text-align: justify;
+    
 }
+#comentarios div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 h2,
 #banner img {
     align-self: flex-start;
+
+}
+#comentarios div {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
 }
 footer {
     display: flex;
     justify-content: center;
+    font-size: 10px;
 
 }
-
-
-/*----------HEADER----------
-header {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px 0;
-    border: 3px solid red;
-    align-items: center;
-}
-h1 {
-    display: flex;
-    border: 3px solid green;
-    justify-content: center;
-    margin: 0;
-   
-}
-#navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid blue;
-    margin: 20px 0 5px 0;
-    padding: 0 50px;
-   
-}
-a {
-    display: flex;
-    border: 3px solid yellow;
-    margin-bottom: 10px;
-}
-a:last-of-type {
-    margin-bottom: 0;
-}
-/*-RESPONSIVE HEADER TABLET-
-@media (min-width: 768px) {
+@media (min-width: 900px) {
+    body {
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+    }
     header {
         flex-direction: row;
         padding: 0 30px;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
     }
-    a {
-        margin-bottom: 5px;
-        font-size: 24px;
-    }
-}
-/*-RESPONSIVE HEADER DESKTOP-
-@media (min-width: 1200px) {
-    header {
-        flex-direction: row;
-        padding: 50px 900px;
-        
-        min-height: 50px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    body {
-        display: flex;
-        justify-content: center
-    }
-    a {
-        margin-right: 20px;
-        font-size: 24px;
-        margin-bottom: 0;
-    }
-    a:last-of-type {
-        margin-right: 0;
-    }
+
     #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 18px;
+        max-width: 600px;
+    }
+    a {
+        margin-left: 25px;
+    }
+   
+    #banner,
+    #comentarios {
+        display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 0;        
+        justify-content: space-around;
+        margin: 10px 20px;
+        margin-bottom: 40px;
+        
     }
+    #info {
+        display: flex;
+        margin: 10px 20px;
+        margin-bottom: 40px;
+    }
+    #banner p {
+        text-align: justify;
+        margin: 0;
+        max-width: 475px;
+    }
+    #banner img {
+        align-self: center;
+        width: 300px;
+    }
+    .sub {
+        margin: 10px 20px;
+        
+    }
+    #comentarios div {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    #comentarios h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 200px;
+    }
+    #comentarios p {
+        display: flex;
+        justify-content: space-around;
+        max-width: 200px;
+        
+    }
+    #comentarios h5 {
+        display: flex;
+        justify-content: right;
+        text-align: center;
+        max-width: 200px;
+    }
+    footer {
+        font-size: 14px;
+    }
+
+    
 }
-*/
+

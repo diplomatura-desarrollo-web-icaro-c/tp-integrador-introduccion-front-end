@@ -2,9 +2,70 @@ body {
     margin: 20px;
     margin-top: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-size: 15px;
 }
-/*----------HEADER----------*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+}
+#nombre,
+#contrasena {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+    font-size: 14px;
+        
+}
+#nombre label,
+#contrasena label {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+        
+    
+}
+#username,
+#pass {
+    display: flex;
+    align-items: center;
+}
+#recordar {
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#submit {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 8px 10px;
+    width: 150px;
+    align-self: center;
+    border-radius: 5px;
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+/*----------HEADER----------
 header {
     display: flex;
     flex-direction: column;
@@ -39,6 +100,7 @@ form{
 #nombre input,
 #contrasena input {
     width: 200px;
+    
 }
 #recordar {
     margin: 20px 0;
@@ -66,7 +128,7 @@ footer {
 
 
 
-/*
+
 body {
     display: flex;
     flex-direction: column;
