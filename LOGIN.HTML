@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LOGIN.CSS">
+</head>
+
+<body>
+    <header> 
+        <section>
+            
+             <img id="foto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABPlBMVEX////zZiFmZmb3ZCH8/Pz8///4/////fyDgoj1ZSH0Yxh3dnv//vvyZiH//v/rlXHol3v3XhL9/vfd3d17e3vuaCHfhlr0VADY19r5YiHylXD818PjfFL128vqWADyYxDugE3OztH77+iPjpWFhIrx8fH0ZCfvVwDkg15ycnKEhITv49z78Onvvabo6OiBf4q2tbn9WxXXYy7fYSb0poXcqIv12dXvlnfqUQD3XyaoqKiUlJSBgYDBwcFubXStra70tqDpo47XcD/kbCX83cXwqnzri1bjXgDm0cfoazrck2fmXSH14crqdkjqYjLxu5z28d/dcjHp4sDzx7vulGbhoX/1glvUXiDq9Nj5xb32USLprZ3mfGD2poLvbBn0fUbpwKPuycH5tKrrnYnk0qzz/+/mxKDVilXjxq/XqYZOorZcAAAMzklEQVR4nO2dC1vbRhaGJSSNrauRLFWIi4yJLWFju3bSBIO55UoJ0NAm6W7TXZq2m132//+BPTOSwbcQJqGjrJgvT0EejVzpfc6cOXM0MwgC1001l/UN/D+Jw6IQh0UhDotCHBaFOCwKcVgU4rAoxGFRiMOiEIdFIQ6LQhwWhTgsCnFYFOKwKMRhUYjDohCHRSEOi0IcFoU4LApxWBTisCjEYVGIw6IQh0UhDotCHBaFOCwKcVgU4rAoxGFRiMOiEIdFIQ6LQl8FLMuyFMWxHAMhxbJk2bJIiSLLyFAUw0CGUcj6HrGyhCUPJQhABhmO0WptjGqt1XIcBwgCw5HKmSlbWAq2IqQ4G68PHn/z5Menod/3RxTHoff0yfr8QftZC4F5YaPL8H4zhAVGYoHZOCfPXwAkv6JpQSCJRGYiciQFWiUODw9Xv/u+bgBcIUPTyhKWIKCVt0f+uy1JUk0VUEmqOCEJBCfwaTtWXz6DVnn3YMlyASG0tBz6olipTCJSMaMpcKKoxcdtoJVZU8wKloXQyWlYUaNpJB+HhcH+8MqxsjIu5rCS7kxx5D9DL/KwYyLOaYIWaBYrMZK0/noLZRRIZAALe3a0dhpLM3FcL1US1d7hBcrGtrKAZcjCimcHW+Js67kWFlhcpPkHiPVtE7H3WQbECyfHdoT90mfYloiv8tsoi+g0C1jozOt5wZfAivoXWcRbrGFBI0TGj4H3OZhG1f/JUpiPfbKA9dye7v9opR05Vu5hAa4T//wzXPuEPP8hkll3iuxhodNbMCzR1PobipFzWIbwPjSjmXE7HSyzsokcxgMf5rCcVVP8vG5wHJaqhmcK45tnC0uWlZN+4N0OLLvEOjRlCYuMc+ancgyfJTUwxUhhHGwxhiU4XxxhXcKK4u8Zt0PGzVBY8r84akhpwaBnHrGlxRrWW/uWYAGu3hHjXA1jWMqqqo0+r2nixJXppUpS76qKewByfJnWIil5+DSCWg3CVn59lqAYdW8sqycl42KSGZWSfHuAU+6eF0UqZgb80qoaXBdF0tYo63CJbfKBLSznUTgGS+31bFvTKpeyE2mSKgI10wyCtLrd6+Hz2tZo1BEfKLmFJcvO63jM6zwolRYXSxPafPNidfXpYViRIsmOiGVJP2zOvy2V3pQC7cqyJMleV5i+dmULSzkYg6V9g0DKhHCR8KH1+/Mn7yrnEbEsbR6/loaa33jBCCzpSMgxLASd4dUo2rSXkYGnNRSMgnUl+ATRq4GUQvu4IhK/ri0iGcqhfwiumqEqSp4j5BjW8igs0V5Hs9tRMqtBQWdPNA+bEAyacYExBgtoxy2mSS2mDt5yjoMxy1rHGan0aQ2stGICy3DQUt/Dr8UAFikGWKP9g+dvKHl18ACkMhaSgs8qpGRGYDmOcTljBv1s49gihVVAp2PXm/EK09EhW1itcDYsTAj7dsNxyIGQzjCy0Il/DSzP/z3HltXyvSCYhOU41uO/3b//AOvo6P79o9U3r/6OSDN0Ch9ErQLObZEMAh20OhqTgmX9cvdgoZe+ZuPsqUpiUU2L3/2CDAzLQD+a0nWwctwM13xzNIJPYIGn2rQhPNBU/IPE7N55fwVsy4BggYy8h7CUcVhi79ccw9rwx95VpD5LUObtK2uBGmBklbekgcnCr/iSSukjsB7mNs66HlYUaSEMCyuVWItEU/tHajNtfInNYY3DkrTFx//8DvT4ATS84EHK4DWBtTmENdYbqnmGpVwHKzhcQol+hv5POkwD1CU/uJuwhEfxx2Fp8ZKC5yML1jK0NS9sJS8FH+E8NIwN8fEkLO9uwyKRKIdFdC2sEFuWMGlZKzja+Ags0X58R2HhJLEhzIIlSRzWbcDKcTO8tjdMYQlDWGvTsAw0ASvPPkt55Isc1k3Vul3LMuNfOaybw2pzWB+DNRVn+e0cZx1avne7sNjO8P56LEvFQSmuNDMoVfCnSVimf5JfWEphfCabtk7ecI1E8DgjT2BFl8Md/Fo2LpFXZlMpGj/PLyzQuToBi8z8V0pDWPL0QDpOkn9k4esUrPxalmwpy9oMWDLaHPos8m71FKdoYoCF0a34oiT1FsEEHaeAVr2x94bhmizktDcEWC+nYFlDWBqGhVM0BJYWr03DctBv2qjTkzwnz7AO4okXFok2A8/zwmHyj7S1dy08FQShJV+NxF4J4QkjDjoNRmFL91GOJ4YYr+PR5bzqUbvd/qPdfn8aBYG5Nf++jXVwBETMdw/Jh/bLnhSJWz9Dcbv96pejMZeV6ylHhgODw1Gno8Vk/4bQjjxTinoVm+zmoOHJgFuHMdGhpEWiqlViP479YLQ3NcX4MduZ8AxhWYbjrPXNyQm45oyjZMnqJ+SpcTu3s5UBVgvddKnh1WTS2YKznuifOexuX2AdZ1lCqfLlS1HwYpRA8lTblPMMSxYuQu3TLG4G67z3BuUaluX0TfM2bEuNTNO/QMan/5+3KOawXlRuBZYY4RER05tnv4QO/R6bwZev+sWwei9Qrhdnwpilfly5lfWGntR/xnoHH9awPqCDw9uBZS8z32SFNSxZaB1r9tYXt8NI9Z+xXYsiZABLRn/0Px2df1Kqtu4YTCeUClls3GOhVck0zUj67IALhkKeGT5ChXwvKBdIh7jhBbO3zbqhJCkw++8z2LqHPSwkKyv9yDs3o6kx9c3sCgJSzfsTp6BZ33sW+2dZynsfbwnlfZbvkqTo3F9H7HeiyWizMaS0+yo0pk9kFmYrkDR/kezak39YqW0tHQdiumiJLI2+AaWkkul5/bfIymQz3GxgyQr66dRPaalqENwgSlXTtRn+8b9QIZudgzPaerNgoQ+vjm1oUkAMLx7HBqbO2kRyWIR3sNE8rxKX6sjJZBO7DDd1tRBqPfdCO/B+8MjWBHjZ/Yyd7ci5KMLLy0XT75c2kGNk4dyxMoNlFAoIOe3lY7/XCyTTw68l1ASWmuzpIA53eVAlVTsX7fjw9O2ZMdzAO4u7zgyWTN6aCsbZv//zNLR928Z0AIxpSpqUtEdgt7UVaMHWlh375vLDE0dWHCfDnc4zhoV3SkbOxsV/X/5m23EchyH8GO5vTj6HYfR0/Xl75QzsEC+qu4OwLkX+rgA5UlC9s/H9BVbyevX1xcXJycmZQ1LHzDMMs5Q1rKuNGWTBsgqOhdf+JngUIf3zDJne36gyh3UlGS8oV8DO0s0w8J53+C9YsH0pcZ2+IlhfvzgsCnFYFOKwKMRhUYjDohCHRSEOi0IcFoU4LApxWBRiBosMl69+CKOT/fHhrKTCaKZBlgWW6wNmih2sy5/pE9/syeWpg48W/PViB6sMwukY+G8hOZTLCwt1cq5e7m4PBoP9hfQv8kG1TrW73+3C+SHlTnW32612LKFe7eIDUki+ts7qGdj5rO05t7FNJh119/YaA3zU0Oeq+FRnTi9i6XqzjD/Lcn3QcF1Xh5L9tOluQwGuUbun61BbbwzqJBk2584tsHoEhj5r4DYbVbCGaqNWbJIieGYCq9zY0YmKTb2D2dRdt+k2GlBQ0wckkbrv7jRdqFEjTOHEjgu84R9UzB8swman0RHqjZ0dt07M5dtLWNvVDphTtVksbuOCbTCibrneWbgHtBbItQC4Wi5X4TecKS8M9GIDNz/ZLeo5hCVbHX1np0kMjDivK1iXvr5aLLr4hNvUdwXik+5hfFDbrenYKoX9Yu0eaad6rYGbbE5hgarQ3MAyCAgBw8IEiBuTwX3v7la7etEFe+kkv7AWwD/hquC+iDvrusV75NqcwwIm+24NYO0Pe7gUFvZIDZc4rRpBAISaqbWVgZJ8F2FBSwRUNb0+DEuLqWXd08Gd6zpx6BhBFfx32jI7eo3AcoewikNYxVzDAu2SEGF7aFk7xGfJ5b2avl+u1+sdoARdALGs5AK5nMLS7xosePJisTnis5qJgwdE28MKNQwLfqU+SyY+Sx6B9e0lLDfXsOousKgPasW9hST6voI1IJ/xEaaE0RBnJguDoj64k7CapNnVIVTSk1FOAkuGzk/f7eBWuAOWh5vooJiUlCHgIjzvGCwZIs2m24WjhQZGguMFNzUgCL30PdIZEqMDt45HNntkXAOBukA6P72MMXZ3mmlBrn1WFwZ3ZEQo7EPHh5287Op7SZy13RgODqtJe+zU9vRkYDNIgn1d3yOw9htuMlTa0+cIrIa+lz9Y8m61upt67SocYsuq7pLkAahe7e7v7+8OHxuwlHe729vd3eS8LOOLMawyfE36deTb8HfkMOswoXT2DEVW6iq1dZkRYzxPi23yb+zRbvCgUzCwPY5mD9nS4jl4CnFYFOKwKMRhUYjDohCHRSEOi0IcFoU4LApxWBTisCjEYVGIw6IQh0UhDotCHBaF5v4HlQtRugppsc8AAAAASUVORK5CYII=" alt="imagen xiaomi">
+             </section>
+            <section>
+            <h1>LANDING PAGE</h1>
+                <nav>
+        
+           
+
+            <a href="http://127.0.0.1:5500/tp-integrador-introduccion-front-end/INDEX.HTML">casa</a>
+            <a href="">producto</a>
+            <a href="http://127.0.0.1:5500/tp-integrador-introduccion-front-end/LOGIN.HTML">acceso</a>
+            <a href="">contacto</a>
+    
+    </nav>
+    </section>
+  <main>  <form>
+    <h id="registro"> registro</h1>
+    <div id="text">
+    <label for="name">nombre</label>
+    <input type="text"
+    name="name"
+    id="name">
+    <label for="username">nombre de usuario</label>
+    <input type="text"
+    name="username"
+    id="username">
+    <label for="password>contraseña</label>
+    <input type="password"
+    name="password"
+    id="password">
+    <label for="password">confirmar contraseña</label>
+    <input type="password"
+    name="password"
+    id="password">
+    <label for="email">correo electronico</label>
+    <input type="email"
+    name="email"
+    id="email">
+    <label for="number">telefono</label>
+    <input type="number"
+    name="number"
+    id="number">
+    <label for="">pais</label>
+    <select 
+    name="country"
+    id="country">
+    <option value="argentina">argentina</option>
+    <option value="brasil">brasil</option>
+    <option value="chile">chile</option>
+    <option value="paraguay">paraguay</option>
+    <option value="uruguay">uruguay</option>
+    <option value="peru">peru</option>
+    <label for="">fecha de nacimiento</label>
+    <input type="date"
+    name="date"
+    id="date">
+</div>
+<br>
+<div id="clic">
+    <p>genero</p>
+    <div id="gender">
+        <div class="option">
+            <label for="gender1">femenino</label>
+            <input type="radio" id="gender" name="gender" value="f" 
+            >
+        </div>
+        <div class="option">
+            <label for="gender2">masculino</label>
+            <input type="radio" id="gender1" name="gender" value="m" 
+            >
+        </div>
+        <div class="option">
+            <label for="gender3">otro</label>
+            <input type="radio" id="gender" name="gender" value="o"  checked
+        >
+    </div>
+</div>
+    <label for="terms">acepto los terminos y condiciones</label>
+    <input type="checkbox"
+    name="terms"
+    id="terms"
+    required="true">
+
+    <input type="submit" value="registrarse">
+</div>
+</form></main>
+<footer><h3>TODOS LOS DERECHOS RESERVADOS</h3></footer>
+</body>
+</html>
