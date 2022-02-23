@@ -1,17 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body{
-    font-family: 'Oswald', sans-serif;
+body {
+margin: 0%;
+font-family: 'Montserrat', sans-serif;
 }
-header{
+
+header {
+    display: flex;
+    align-items: center;
     background-color: cadetblue;
-    width: 100%;
-    padding: 1em;
+    flex-direction: column;
 }
-header h1{
-    margin: 0;
-    text-align: center;
+#navbar a{
+    display: flex;
+    text-decoration: black;
+    color: black;
+    flex-direction: row;
+    margin: 5px;
+    /*text-decoration: underline;*/
 }
+
+#links{
+    display: flex;
+    flex-direction: row;
+}
+
 body{
     margin: 0%;
 }
@@ -38,4 +51,12 @@ input{
     padding: 4px 20px;
     background-color: cadetblue;
 
+}
+
+@media(min-width: 720px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
 }
