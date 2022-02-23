@@ -84,33 +84,45 @@ body {
     background-color:black;
     color:white;
     text-align: justify;
-    
+
 }
 
-img {
+    #nav ul {
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 15px;
+        padding: 10px;
+        list-style-type: none;
+      
+        
+      }
+  
+    
+
+
+.img {
+    display:flex;
     background-color: white;
     padding: 10px;
     margin: 20px;
     text-align: center;
 }
 
-    header {
-        display: flex;
-        flex-direction: column ;
-        
-    }
 
-.menu {
-    display: inline-flex;
-}
+    
+
      
 a:link {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     color: white;
     font-size: 20px;
     background-color: transparent;
     text-decoration: none;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
   }
   
 a:visited {
@@ -131,14 +143,25 @@ a:active {
     text-decoration: underline;
   }
 
-div.articule {
-    display: inline-flex;
-    flex-direction: column;
-}
+
 
 
 footer {
     text-align: center;
 }
 
+}
+
+/* Desktop >900px */
+
+@media screen and (min-width: 900px) , (orientation:landscape)
+{
+
+.articule {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
 }
