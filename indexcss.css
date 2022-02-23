@@ -7,46 +7,83 @@ font-family: 'Montserrat', sans-serif;
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: cadetblue;
+    flex-direction: column;
 }
+
 #navbar a{
     display: flex;
     text-decoration: black;
     color: black;
     flex-direction: row;
     margin: 5px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
+
 #links{
     display: flex;
     flex-direction: row;
 }
+
 img {
-    height: 300px;
-    width: 450px;
-  }
-  #banner {
+    height: auto;
+    width: 100%;
+}
+
+#banner {
     display: flex;
     flex-direction: column;
+    margin: 1em 0;
+}
+
+#foto{
+    margin: 0;
 }
 
 #textobanner {
     display: flex;
     /* align-items: flex-start; */
+    margin: 10px;
 }
 
 #bloques {
     display: flex;
-    margin-top: 30px;
+    margin-top: 10px;
+    flex-direction: column;
 }
-#bloque1 {
-    margin-right: 20px;
+
+.minibloque {
+    margin: 20px;
+    width: 100%;
+    text-align: center;
 }
-#bloque2 {
-    margin-left: 20px;
+
+.minibloque p {
+    text-align: left;
 }
+
+#comentarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.autor{
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    border-style:dashed;
+}
+
+#comentarios h2{
+   text-align: center;
+    
+}
+#cajadecomentarios{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 footer {
@@ -58,4 +95,27 @@ footer {
 footer h4{
     display: flex;
     margin: 55px;
+}
+
+/*media querys*/ 
+
+@media(min-width: 480px){
+   #banner{
+       flex-direction: row;
+    } 
+
+    #cajadecomentarios{
+        flex-direction: row;
+    }
+    #bloques{
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 720px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
 }
