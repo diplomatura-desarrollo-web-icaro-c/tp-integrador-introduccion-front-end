@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(255, 244, 235);
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background-color: rgb(216, 218, 180);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;		
+	border-bottom: solid black 2px;	
+	position: fixed;
+	width: 100%;
+	top: 0;	
+	height: 7rem;
+}
+main {
+	margin-top: 9rem;
+}
+li {
+	border: 1px solid #000;
+	width: 30%;
+	list-style: none;	
+}
+a {
+	text-decoration: none;
+	color: rgb(53, 137, 175);
+	font-weight: bold;
+}
+img {
+	width: 100%;	
+}
+section {
+	text-align: center;
+	margin-top: 2rem;
+}
+h2 {
+	margin-top: 2rem;
+}
+#secImagen {
+	margin-top: 0;
+	width: 100%;
+}
+#logIn {
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+footer {
+	padding: 2rem 0 1rem;
+	font-weight: bolder;
+	background-color: rgb(216, 218, 180);
+	border-top: solid black 2px;	
+	bottom:0;
+	width:100%;
+	margin-top: 70vh;
+	flex: 1;
+}
+form {
+	margin-top: 2rem;
+	margin-left: 1rem;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main {
+    flex-grow: 1;
+}
+
+@media all and (min-width: 992px){
+    header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 3rem;
+	}
+	main {
+		margin-top: 5rem;
+	}
+	#head {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	a {
+		margin: 3rem;
+	}
+	#logIn {
+		margin-top: 2rem;
+		margin-left: 30vw;
+	}
+	p {
+		text-align: center;
+	}
+	input {
+		margin-top: 1rem;
+	}
+	img {
+		margin: 3rem;
+		width: 500px;	
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 30vw;
+	}
+	#secImagen {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	footer {
+		display: flex;
+		bottom: 0;
+		width: 100%;
+		margin-top: -200px;
+		position: absolute;
+		height: 2.5rem;
+	}
+	#comentarios {
+		display: flex;
+		flex-direction: row;
+		margin-top: 5rem;
+	
+	}
+}
