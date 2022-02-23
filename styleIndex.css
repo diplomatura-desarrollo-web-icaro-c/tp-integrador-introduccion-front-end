@@ -1,10 +1,13 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
     padding-bottom: 20px;
     background: radial-gradient(white,rgb(182, 214, 243));
     padding: 20px;
+    align-items: center;
 }
 
 
@@ -13,6 +16,19 @@ header {
     flex-direction: column;
     align-items: center;
   
+}
+header h1 {
+    display: flex;
+    text-align: center;
+    
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    margin-right: 10px;
 }
 #banner,
 #info,
@@ -30,9 +46,12 @@ header {
     align-items: flex-start;
 }
 
-h2,
+h2 {
+    text-align: center;
+}
 #banner img {
-    align-self: flex-start;
+    align-self: center;
+    width: 400px;
 
 }
 #comentarios div {
@@ -71,17 +90,25 @@ footer {
     a {
         margin-left: 25px;
     }
+    header h1 {
+        text-align: left;
+        margin-right: 150px;
+    }
    
     #banner,
     #comentarios {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
         margin: 10px 20px;
         margin-bottom: 40px;
+
         
     }
+    #comentarios {
+        justify-content: space-around;
+    }
+    
     #info {
         display: flex;
         margin: 10px 20px;
@@ -90,11 +117,15 @@ footer {
     #banner p {
         text-align: justify;
         margin: 0;
-        max-width: 475px;
+        margin-left: 30px;
     }
     #banner img {
         align-self: center;
-        width: 300px;
+        height: auto;
+        width: 70%;
+    }
+    h2 {
+        text-align: left;
     }
     .sub {
         margin: 10px 20px;

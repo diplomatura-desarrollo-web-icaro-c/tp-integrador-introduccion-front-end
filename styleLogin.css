@@ -1,232 +1,119 @@
 body {
-    margin: 20px;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    padding-bottom: 100px;
+    background: radial-gradient(white,rgb(182, 214, 243));
+    padding: 20px;
+    align-items: center;
+    max-width: 800px;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
+}
+header h1 {
+    display: flex;
+    text-align: center;
+    
+    
+}
+#navbar {
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    margin-right: 10px;
+}
 form {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    width: 60%;
+    max-width: 400px;
+    margin-top: 20px;
     align-items: center;
-    width: 100%;
-    font-size: 12px;
+    
+}
+form h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
 }
 #nombre,
 #contrasena {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 5px;
-    font-size: 14px;
-        
-}
+    justify-content: space-around;
+    text-align: left;
+    padding: 5px;
+ }
+
 #nombre label,
 #contrasena label {
+    margin-right: 10px;
+    width: 120px;
+    text-align: right;
+}
+#recordar {
     display: flex;
     justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#submit {
+    display: flex;
     justify-self: center;
-    align-content: center;
-        
-    
-}
-#username,
-#pass {
-    display: flex;
-    align-items: center;
-}
-#recordar {
-    display: flex;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-#submit {
-    font-weight: bold;
-    color: white;
-    background-color: gray;
     border: none;
-    padding: 8px 10px;
-    width: 150px;
-    align-self: center;
-    border-radius: 5px;
-    
-}
-footer {
-    display: flex;
-    justify-content: center;
-    font-size: 10px;
-}
-/*----------HEADER----------
-header {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    align-items: center;
-  
-}
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    font-weight: bold;
-
-
-}
-#nombre,
-#contrasena {
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    width: 30%;
-    margin-bottom: 10px;
-    
-
-}
-#nombre input,
-#contrasena input {
-    width: 200px;
-    
-}
-#recordar {
-    margin: 20px 0;
-}
-#submit {
-    font-weight: bold;
-    color: white;
-    background-color: gray;
-    border: none;
-    padding: 10px 20px;
-    width: 150px;
-    align-self: center;
-    border-radius: 5px;
-    transition: ease-in-out .3s;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    font-size: 12px;
-    font-weight: bold;
-
-    
-}
-#nombre,
-#contrasena,
-#comunicacion,
-#mouse {
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    width: 40%;
-    margin-bottom: 10px;
-    
-}
-
-#nombre div,
-#contrasena div,
-#comunicacion div,
-#mouse div,
-#generos div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-#nombre label,
-#contrasena label,
-#comunicacion label,
-#mouse label {
-    margin-bottom: 5px;
-}
-
-#nombre input,
-#contrasena input,
-#comunicacion input,
-#mouse input {
-    width: 200px;
-}
-#mouse select {
-    width: 208px;
-    height: 23px;
-    text-align: center;
-}
-
-#registro {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-#registro p {
-    margin-bottom: 10px;
-}
-
-#generos {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid gray;
     border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 20px;
-    
-    
-}
-#terminos {
-    margin-bottom: 20px;
-}
-#submit {
-    font-weight: bold;
-    color: white;
-    background-color: gray;
-    border: none;
-    padding: 10px 20px;
-    width: 150px;
-    align-self: center;
-    border-radius: 5px;
-    transition: ease-in-out .3s;
-
-}
-#submit:hover {
-    border: 2px solid gray;
-    background: transparent;
-    color: gray;
+    background: radial-gradient(rgb(202, 199, 199), rgb(121, 119, 119));
+    max-width: fit-content;
+    padding: 3px 25px;
 }
 
-*/
+footer {
+    display: flex;
+    font-size: 10px;
+    margin-top: 100px;
+}
 
+@media (min-width: 900px) {
+    body {
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        max-width: 1200px;
+    }
+    header {
+        flex-direction: row;
+        padding: 0 30px;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 18px;
+        max-width: 600px;
+    }
+    a {
+        margin-left: 25px;
+    }
+    header h1 {
+        text-align: left;
+        margin-right: 150px;
+    }
+    #nombre,
+    #contrasena {
+        padding: 10px;
+    }
+    #recordar {
+        padding: 25px;
+    }
+}
