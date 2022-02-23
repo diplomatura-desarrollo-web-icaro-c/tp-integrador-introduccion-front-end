@@ -1,0 +1,47 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+header{
+    background-color:#b61313;
+    width: 100%;
+    padding: 15px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+body{
+    margin: 0%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    border-radius: 7px;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+    padding: none;
+    margin: none;
+}
+input{
+    border-radius: 7px;
+  
+}
+
+#ingresar input{
+    /* padding: 4px 20px;
+    background-color: #b61313; */
+    margin: 15px;
+  padding: 0.7em 2em;
+  background-color: #b61313;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
