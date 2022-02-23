@@ -1,54 +1,136 @@
 body{
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*      INICIO HEADER      */
 header{
     padding: 20px 0;
-    background-color: moccasin;
+    background-color: #1F7A00;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 header h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
-    color: dimgray;
+    font-family: cursive;
+    color: #ffffff94;
     font-weight: bold;
+    border: 5px dashed #ffffff94;
 }
 
 nav{
+    color: #F2F2F2;
     display: flex;
     flex-direction: column;
+}
+
+header nav a{
+margin: 5px;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+box-shadow: none;
+transition: all;
+-o-transition: 500ms ease;
+}
+
+header nav a:visited{
+    color: white;
+}
+
+header nav a:hover{
+    background: forestgreen;
+    border-radius: 80px;
 }
 /*      FIN HEADER      */
 
 /*      INICIO MAIN      */
 
+main {
+    padding: 10px 10px;
+    
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+}
+#section1 p{
+    text-align: center;
+}
+#section2 {
+    border: 5px solid rgba(12, 134, 77, 0.849);
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#section3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    
+}
+
 .art-1{
-    border: 1px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
     margin: 5px 0 5px 53px;
     
 }
 .art-2{
-    border: 1px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
     margin: 5px 0 5px 53px;
     
 }
 .art-3{
-    border: 1px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
     margin: 5px 0 5px 53px;
     
+}
+.aut{
+    font-family: monospace;
+    font-size: larger;
 }
 /*      FIN MAIN      */
 
 
 /*      INICIO FOOTER      */
 
-/*      FIN FOOTER      */
-
 .footer-control{
     text-align: center;
-    background-color: moccasin;
+    background-color: #1F7A00;
+    color: #FFFFFF;
+    padding: 20px;
+}
+/*      FIN FOOTER      */
+
+/*      MEDIA Q     */
+@media (min-width: 900px){
+    header{
+        padding: 0 30px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav{
+        flex-direction: row;
+    }
+    #section1{
+        padding: 5px;
+        display: table;
+        flex-direction: row;
+    }
+    #section1 p{
+        display: table-cell;
+        text-align: justify;
+        vertical-align: middle;
+        padding: 0 1rem;
+    }
+
+    #section3{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
