@@ -1,39 +1,133 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
 }
 
 /*
------------------
+-------------------------------
 HEADER
------------------
+-------------------------------
 */
 header {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px 0;
+    background-color: burlywood;
+}
+h1 {
+    color:chocolate;
+}
+nav {
+    padding: 0;
+    text-align: center;
+}
+a {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: brown;
+}
+
+@media(min-width:900px){
+    header{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+    }
+    a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 /*
----------------
+------------------------------
 MAIN
----------------
+------------------------------
 */
 main {
-    padding: 0px;
+    padding-top: 50px;  
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#section1 {
     display: flex;
     flex-direction: column;
-
+    margin:0 20px;
+    padding-bottom: 20px;
+    
 }
-#section2 {
- display: flex;
- justify-content: space-around;
- border: 5px solid red;
-}
-
+@media(min-width:900px){
+    #section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 20px;
+        border-bottom: none;
+        
+    } 
+    img{
+        width: 47.5%;
+        margin:0px;
+    }
+  }
 
 img {
-    max-width: 100%;
+    max-width: auto;
     object-fit: cover;
 }
 
+#section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: chocolate;  
+}
+@media(min-width:900px){
+    #section2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    article.info{
+        width: 47.5%;
+    }
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: aliceblue;
+    }
+@media(min-width:900px){
+    #section3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        
+    article.comentario{
+         width: 30%;
+     }
+    }
+
+
 footer {
     text-align: center;
+    margin:0;
+    padding: 50px 20px;
+    background-color: burlywood;
 }
